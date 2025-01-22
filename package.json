@@ -1,0 +1,32 @@
+{
+  "name": "ios-build-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "ncc build -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yukiarrr/ios-build-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukiarrr/ios-build-action/issues"
+  },
+  "homepage": "https://github.com/yukiarrr/ios-build-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^6.0.0",
+    "ncc": "^0.3.6"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "4.0.4",
+    "@vercel/ncc": "^0.38.1",
+    "prettier": "3.3.1"
+  }
+}
